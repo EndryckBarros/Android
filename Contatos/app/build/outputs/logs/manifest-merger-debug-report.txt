@@ -1,0 +1,152 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\51cb8b30fefb26e69137de9dcd347de1\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\059221dbd5642f5dddd5d1e3ceebb512\AndroidManifest.xml:16:1-20:12
+MERGED from [com.android.support:transition:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\b470cc0b303715dcd4e2ddc285598d5a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\ff0947f64945d19faa2230fc2da4792c\AndroidManifest.xml:16:1-19:12
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\06677a0461cfaaf7ca91547a8cbd69a7\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\ac0ad01d3a27fda5c6244f4b64584df6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\a6e892499b855da9e711f63fd0f5479a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\d0c94d1f32809f4a7376e24ffb2a2859\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\fb6abc785a9b20e4da83ed8c5836cf5b\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\b95cf84c64d87298bb7db37aeb8d4eca\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\cc2f4854b062274bece9e45c52288a95\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\a840fe225ef897af709634cc43d80f6d\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9bba7d51be7d54072c2034208561e667\AndroidManifest.xml:17:1-27:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:3:5-33
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:5:5-26:19
+MERGED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\51cb8b30fefb26e69137de9dcd347de1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\51cb8b30fefb26e69137de9dcd347de1\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\059221dbd5642f5dddd5d1e3ceebb512\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\059221dbd5642f5dddd5d1e3ceebb512\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\b470cc0b303715dcd4e2ddc285598d5a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:transition:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\b470cc0b303715dcd4e2ddc285598d5a\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\06677a0461cfaaf7ca91547a8cbd69a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\06677a0461cfaaf7ca91547a8cbd69a7\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\ac0ad01d3a27fda5c6244f4b64584df6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\ac0ad01d3a27fda5c6244f4b64584df6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\a6e892499b855da9e711f63fd0f5479a\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\a6e892499b855da9e711f63fd0f5479a\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\fb6abc785a9b20e4da83ed8c5836cf5b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\fb6abc785a9b20e4da83ed8c5836cf5b\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\b95cf84c64d87298bb7db37aeb8d4eca\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\b95cf84c64d87298bb7db37aeb8d4eca\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\cc2f4854b062274bece9e45c52288a95\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\cc2f4854b062274bece9e45c52288a95\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\a840fe225ef897af709634cc43d80f6d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\a840fe225ef897af709634cc43d80f6d\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9bba7d51be7d54072c2034208561e667\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9bba7d51be7d54072c2034208561e667\AndroidManifest.xml:25:5-20
+	android:supportsRtl
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:10:9-40
+activity#up.edu.br.contatos.MainActivity
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:11:9-20:20
+	android:label
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:13:13-45
+	android:theme
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:14:13-56
+	android:name
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:15:13-19:29
+action#android.intent.action.MAIN
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:18:27-74
+activity#up.edu.br.contatos.ContatoActivity
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:21:9-62
+	android:name
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:21:19-50
+meta-data#com.google.android.gms.version
+ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml:24:13-58
+uses-sdk
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\51cb8b30fefb26e69137de9dcd347de1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.0.0.aar\51cb8b30fefb26e69137de9dcd347de1\AndroidManifest.xml:21:5-23:78
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\059221dbd5642f5dddd5d1e3ceebb512\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-appindexing-8.4.0.aar\059221dbd5642f5dddd5d1e3ceebb512\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:transition:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\b470cc0b303715dcd4e2ddc285598d5a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\transition-25.0.0.aar\b470cc0b303715dcd4e2ddc285598d5a\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\ff0947f64945d19faa2230fc2da4792c\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-base-8.4.0.aar\ff0947f64945d19faa2230fc2da4792c\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\play-services-basement-8.4.0.aar\8c1a1db5d2f21fa993aaeae9e6b6ce62\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\06677a0461cfaaf7ca91547a8cbd69a7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-v4-25.0.0.aar\06677a0461cfaaf7ca91547a8cbd69a7\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\ac0ad01d3a27fda5c6244f4b64584df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.0.0.aar\ac0ad01d3a27fda5c6244f4b64584df6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\a6e892499b855da9e711f63fd0f5479a\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.0.0.aar\a6e892499b855da9e711f63fd0f5479a\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\d0c94d1f32809f4a7376e24ffb2a2859\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-25.0.0.aar\d0c94d1f32809f4a7376e24ffb2a2859\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\fb6abc785a9b20e4da83ed8c5836cf5b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-fragment-25.0.0.aar\fb6abc785a9b20e4da83ed8c5836cf5b\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\b95cf84c64d87298bb7db37aeb8d4eca\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.0.0.aar\b95cf84c64d87298bb7db37aeb8d4eca\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\cc2f4854b062274bece9e45c52288a95\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.0.0.aar\cc2f4854b062274bece9e45c52288a95\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\a840fe225ef897af709634cc43d80f6d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.0.0.aar\a840fe225ef897af709634cc43d80f6d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9bba7d51be7d54072c2034208561e667\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\support-compat-25.0.0.aar\9bba7d51be7d54072c2034208561e667\AndroidManifest.xml:21:5-23:58
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.0.0] C:\Users\Endrick\.gradle\caches\transforms-1\files-1.1\design-25.0.0.aar\82f10aac67a1e6b0e77ab59d9bc26cac\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		ADDED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml
+		INJECTED from F:\Programas\Android\Contatos\app\src\main\AndroidManifest.xml

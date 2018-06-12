@@ -1,0 +1,7 @@
+#Mon Jun 11 21:18:13 BRT 2018
+base.0=C\:\\sist\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_153b5094c7773f8dccbeb981b863432a917c8a27
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\sist\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b2c2d878575dcdae6888e8993d77614402b24c90\\classes.dex
+base.1=C\:\\sist\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_b2c2d878575dcdae6888e8993d77614402b24c90
+file.0=C\:\\sist\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_153b5094c7773f8dccbeb981b863432a917c8a27\\classes.dex

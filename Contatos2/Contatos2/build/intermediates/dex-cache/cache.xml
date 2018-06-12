@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Aluno\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_38e3a665a9ce76025880fbd271c7045c0f993209\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_6165a93e7b56ae389b056d5f32c99bdc99e3906f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_6165a93e7b56ae389b056d5f32c99bdc99e3906f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_aed5daf197231c2df14ba23cc1a025c013861c26\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_7324b1f18cfd795d80dd136953bcd7dd678b7464\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Aluno\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_38e3a665a9ce76025880fbd271c7045c0f993209.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_aed5daf197231c2df14ba23cc1a025c013861c26.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_7324b1f18cfd795d80dd136953bcd7dd678b7464.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_4c1e8d6b4e05a3ba5d0ecd06ac1547cbead8ada1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_10d30409e3dc09a3e8832efdcc7b292e8051ea60.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_b21f4e70c84f6fa4240af5dda59812d448b2bd06\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_bd7745efbf858a06dc5d19c1ee81d059322c2ef1\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_1ce43d53e26bcbc2bcb65770372a2821a076a5d2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_b21f4e70c84f6fa4240af5dda59812d448b2bd06.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_4c1e8d6b4e05a3ba5d0ecd06ac1547cbead8ada1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_a03e7ae3960e180ec745c3de742248a8c1ad28b4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_221033b8e1dc816e45264b3eccb60df8e324ca93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_ad7931450e37b94fb24a70955d38ae12d0ad46e4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a03e7ae3960e180ec745c3de742248a8c1ad28b4.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_221033b8e1dc816e45264b3eccb60df8e324ca93\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_bd7745efbf858a06dc5d19c1ee81d059322c2ef1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_1ce43d53e26bcbc2bcb65770372a2821a076a5d2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_696c8bcae683345271fa14b2d5f2152faa71d04b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b07847a5100c81300a28aaf57e393c2ef49a72e8">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_153b5094c7773f8dccbeb981b863432a917c8a27\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1fe05e69ce38cf5fcba600449cca690d40466bac">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b2c2d878575dcdae6888e8993d77614402b24c90\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_ad7931450e37b94fb24a70955d38ae12d0ad46e4\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_b35fca4d721e5d58aea37e7e9b49c00b2d515079.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_c557a7e9e26924616d60223fe2c8af111cf46e58\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_b35fca4d721e5d58aea37e7e9b49c00b2d515079\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_823c8c384ebd26b54b4933c95127c42707443dba\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_c557a7e9e26924616d60223fe2c8af111cf46e58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_823c8c384ebd26b54b4933c95127c42707443dba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_b76bed741600e0b8436b4eb80ae68d6f933c8fd6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_2558de2adfb55b8c224efe5b5e191eb128ded0f9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_10d30409e3dc09a3e8832efdcc7b292e8051ea60\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_b76bed741600e0b8436b4eb80ae68d6f933c8fd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_7130a404f78467aeb843e5ec48ca9226b7d66c2c.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_7130a404f78467aeb843e5ec48ca9226b7d66c2c\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_3a997a359da82ad8c551d0e590ea938f4f2b3042.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_3a997a359da82ad8c551d0e590ea938f4f2b3042\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_7e91adb113e6f817904c9abdda215786e0c8b15e\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_696c8bcae683345271fa14b2d5f2152faa71d04b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_7e91adb113e6f817904c9abdda215786e0c8b15e.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\sist\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\sist\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_2558de2adfb55b8c224efe5b5e191eb128ded0f9\classes.dex" />
+    </item>
+
+</items>
