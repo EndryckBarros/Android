@@ -11,6 +11,7 @@ public class Contato implements Serializable{
     private String nome;
     private String tipo;
     private String numero;
+    private byte[] imagem;
 
     @Override
     public boolean equals(Object obj) {
@@ -61,4 +62,11 @@ public class Contato implements Serializable{
         this.numero = numero;
     }
 
+    public byte[] getImagem() {
+        return imagem;
+    }
+
+    public void setImagem(byte[] imagem) {
+        this.imagem = imagem;
+    }
 }

@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\sist\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contato.xml",
-        "source": "C:\\sist\\Contatos2\\app\\src\\main\\res\\menu\\menu_contato.xml"
+        "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\src\\main\\res\\menu\\menu_main.xml"
     },
     {
-        "merged": "C:\\sist\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\sist\\Contatos2\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_contato.xml",
+        "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\src\\main\\res\\menu\\menu_contato.xml"
     }
 ]

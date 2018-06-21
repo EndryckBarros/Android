@@ -1,19 +1,30 @@
 package up.edu.br.contatos;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.provider.MediaStore;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
+
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
 
 public class ContatoActivity extends AppCompatActivity {
 
 
     Contato contato;
+    int CAMERA_REQUEST = 1888;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +35,7 @@ public class ContatoActivity extends AppCompatActivity {
 
         EditText txtNome = (EditText)findViewById(R.id.txtNome);
         EditText txtTelefone = (EditText)findViewById(R.id.txtTelefone);
+        ImageView image = (ImageView)findViewById(R.id.imageView2);
 
         Intent it = getIntent();
         if(it != null && it.hasExtra("contato")) {
@@ -33,8 +45,18 @@ public class ContatoActivity extends AppCompatActivity {
             txtTelefone.setText(contato.getNumero());
 
             spTipo.setSelection(((ArrayAdapter)spTipo.getAdapter()).getPosition(contato.getTipo()));
+            ByteArrayInputStream imageStream = new ByteArrayInputStream(contato.getImagem());
+            Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
+            image.setImageBitmap(bitmap);
         }
 
+        image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+                startActivityForResult(cameraIntent, CAMERA_REQUEST);
+            }
+        });
     }
 
     @Override
@@ -53,6 +75,8 @@ public class ContatoActivity extends AppCompatActivity {
             EditText txtNumero = (EditText)findViewById(R.id.txtTelefone);
 
             Spinner spTipo = (Spinner)findViewById(R.id.spTipo);
+            ImageView image = (ImageView)findViewById(R.id.imageView2);
+
 
 
             if(contato == null){
@@ -62,6 +86,12 @@ public class ContatoActivity extends AppCompatActivity {
             contato.setNome(txtNome.getText().toString());
             contato.setNumero(txtNumero.getText().toString());
             contato.setTipo(spTipo.getSelectedItem().toString());
+
+            Bitmap bitmap = ((BitmapDrawable)image.getDrawable()).getBitmap();
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG,100,baos);
+            byte[] imageInByte = baos.toByteArray();
+            contato.setImagem(imageInByte);
 
             new ContatoDao().salvar(contato);
             contato = null;
@@ -74,5 +104,15 @@ public class ContatoActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if(requestCode == CAMERA_REQUEST && resultCode == Activity.RESULT_OK){
+            Bitmap photo = (Bitmap) data.getExtras().get("data");
+            ImageView image = (ImageView)findViewById(R.id.imageView2);
+            image.setImageBitmap(photo);
+        }
+        super.onActivityResult(requestCode, resultCode, data);
     }
 }

@@ -27,7 +27,8 @@ public class Conexao extends SQLiteOpenHelper {
                 "id integer primary key autoincrement," +
                 "nome varchar (255)," +
                 "tipo varchar(50)," +
-                "telefone varchar(20) " +
+                "telefone varchar(20), " +
+                "imagem blob" +
                 ")";
 
         sqLiteDatabase.execSQL(statement);
