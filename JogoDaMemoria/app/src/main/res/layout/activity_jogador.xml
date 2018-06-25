@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JogadorActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="126dp"
+            android:layout_height="111dp"
+            android:layout_marginLeft="130dp"
+            android:cropToPadding="false"
+            app:srcCompat="@drawable/ic_monochrome_photos_black_24dp" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:fontFamily="casual"
+            android:hint="NOME"
+            android:textAlignment="center"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

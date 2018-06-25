@@ -18,7 +18,10 @@
         <activity
             android:name=".RankingActivity"
             android:label="@string/title_activity_ranking"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ranking_adapter" />
+        <activity android:name=".GameActivity" />
+        <activity android:name=".JogadorActivity"></activity>
     </application>
 
 </manifest>
