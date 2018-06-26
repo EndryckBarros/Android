@@ -6,27 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".JogadorActivity">
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="74dp"
+        android:layout_height="86dp"
+        android:clickable="true"
+        app:backgroundTint="@android:color/transparent"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="421dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView17"
+            android:id="@+id/imageUser"
             android:layout_width="126dp"
             android:layout_height="111dp"
             android:layout_marginLeft="130dp"
             android:cropToPadding="false"
-            app:srcCompat="@drawable/ic_monochrome_photos_black_24dp" />
+            app:srcCompat="@drawable/ic_monochrome_photos_black_24dp"
+            tools:ignore="VectorDrawableCompat" />
 
-        <TextView
-            android:id="@+id/textView10"
+        <EditText
+            android:id="@+id/txtNome"
             android:layout_width="match_parent"
-            android:layout_height="51dp"
-            android:fontFamily="casual"
-            android:hint="NOME"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:fontFamily="sans-serif-condensed"
+            android:hint="Nome"
+            android:inputType="textPersonName"
             android:textAlignment="center"
-            android:textSize="30sp" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

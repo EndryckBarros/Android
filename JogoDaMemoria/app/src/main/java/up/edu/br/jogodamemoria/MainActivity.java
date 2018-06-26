@@ -22,13 +22,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btnRanking = (Button)findViewById(R.id.btnRanking);
+        btnRanking.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(MainActivity.this, RankingActivity.class);
+                startActivity(it);
+            }
+        });
+
     }
 
-
-
-    public void Ranking(View view) {
-
-        Intent it = new Intent(MainActivity.this, GameActivity.class);
-        startActivity(it);
-    }
 }
