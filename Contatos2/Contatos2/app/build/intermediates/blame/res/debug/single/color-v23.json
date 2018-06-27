@@ -4,8 +4,16 @@
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
     },
     {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_btn_checkable.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_btn_checkable.xml"
+    },
+    {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\color-v23\\design_tint_password_toggle.xml"
     },
     {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
@@ -24,19 +32,51 @@
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_seek_thumb.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_seek_thumb.xml"
+    },
+    {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_color_highlight_material.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_color_highlight_material.xml"
     },
     {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_switch_track.xml"
     },
     {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_track.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_switch_track.xml"
+    },
+    {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_default.xml"
     },
     {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_default.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_default.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_switch_thumb.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_switch_thumb.xml"
+    },
+    {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\design_tint_password_toggle.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\color-v23\\design_tint_password_toggle.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_btn_colored_borderless_text_material.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_edittext.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v23\\abc_tint_spinner.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v23\\abc_tint_spinner.xml"
     }
 ]

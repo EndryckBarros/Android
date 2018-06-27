@@ -6,5 +6,13 @@
     {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

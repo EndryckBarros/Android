@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Programas\\Android\\Contatos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
+            "outputFile": "F:\\Documents\\GitHub\\Android\\Contatos\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rAU\\values-en-rAU.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Endrick\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-8.4.0.aar\\ff0947f64945d19faa2230fc2da4792c\\res\\values-en-rAU\\base_strings.xml",

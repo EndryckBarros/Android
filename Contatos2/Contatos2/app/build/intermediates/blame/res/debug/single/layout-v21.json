@@ -1,5 +1,17 @@
 [
     {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_action_tombstone.xml"
     },
@@ -14,5 +26,9 @@
     {
         "merged": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
         "source": "C:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout-v21\\notification_template_icon_group.xml"
     }
 ]
