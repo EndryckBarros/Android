@@ -14,6 +14,7 @@
     tools:showIn="@layout/activity_ranking">
 
     <ListView
+        android:id="@+id/listaJogadores"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 </RelativeLayout>
