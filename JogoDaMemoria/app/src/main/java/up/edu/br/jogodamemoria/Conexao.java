@@ -28,16 +28,16 @@ public class Conexao extends SQLiteOpenHelper {
                 "nome varchar (255)," +
                 "imagem blob" +
                 ")";
-        String startament2 = "create table partida ("+
+        /*String startament2 = "create table partida ("+
                 "id integer primary key autoincrement," +
                 "Jogador1 varchar (255)," +
                 "Jogador2 varchar (255)," +
                 "Jogador1pontos int(2)," +
                 "Jogador2pontos int(2)" +
-                ")";
+                ")";*/
 
         sqLiteDatabase.execSQL(statement);
-        sqLiteDatabase.execSQL(startament2);
+       // sqLiteDatabase.execSQL(startament2);
     }
 
     @Override

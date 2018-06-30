@@ -1,12 +1,15 @@
 package up.edu.br.jogodamemoria;
 
 import android.app.Activity;
-import android.support.v7.app.AppCompatActivity;
-import android.os.Bundle;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
 
+import java.io.ByteArrayInputStream;
 import java.util.List;
 
 public class RankingAdapter extends BaseAdapter {
@@ -21,12 +24,12 @@ public class RankingAdapter extends BaseAdapter {
 
     @Override
     public int getCount() {
-        return 0;
+        return this.jogadores.size();
     }
 
     @Override
     public Object getItem(int i) {
-        return null;
+        return this.jogadores.get(i);
     }
 
     @Override
@@ -36,7 +39,19 @@ public class RankingAdapter extends BaseAdapter {
 
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
-        return null;
+        View v = act.getLayoutInflater().inflate(R.layout.ranking_adapter,viewGroup,false);
+
+        TextView nome = (TextView)v.findViewById(R.id.txtNome);
+        ImageView image = (ImageView)v.findViewById(R.id.imagePerfil);
+
+        Jogador j = jogadores.get(i);
+
+        nome.setText(j.getNome());
+        ByteArrayInputStream imageStream = new ByteArrayInputStream(j.getImagem());
+        Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
+        image.setImageBitmap(bitmap);
+
+        return v;
     }
 
     public void remove(Jogador jogador) {

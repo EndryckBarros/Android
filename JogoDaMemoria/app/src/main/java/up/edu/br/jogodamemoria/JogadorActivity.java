@@ -28,7 +28,7 @@ public class JogadorActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if(requestCode == CAMERA_REQUEST && resultCode == Activity.RESULT_OK){
             Bitmap photo = (Bitmap) data.getExtras().get("data");
-            ImageView image = (ImageView)findViewById(R.id.imageView2);
+            ImageView image = (ImageView)findViewById(R.id.imageUser);
             image.setImageBitmap(photo);
         }
         super.onActivityResult(requestCode, resultCode, data);
@@ -66,7 +66,7 @@ public class JogadorActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 EditText txtNome = (EditText)findViewById(R.id.txtNome);
-                ImageView image = (ImageView)findViewById(R.id.imageView2);
+                ImageView image = (ImageView)findViewById(R.id.imageUser);
 
                 if(jogador == null){
                     jogador = new Jogador();
