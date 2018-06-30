@@ -2,211 +2,193 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\Aluno\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.0.0_38e3a665a9ce76025880fbd271c7045c0f993209\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.0.0_ec30885cea6c5a81da07e0237346456950b5622c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.0.0_e25d76fdb18e43abab2b8ad18292c63650216c10\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.0.0_a7d373cf0fb5d4b9ed82958737b6fa9912785881\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_254f7701c081f3ec2654827867184de12257a3e3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_18d944dcca77c6f2737ff95f10a79b367aa15ebd\classes.dex" />
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-8.4.0_45bf49a7fa43fe8449fe8acadc4cdf5cb9457d9b.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="142f0d8de72cf0cff3c1fcafa2249769da0a4eb9">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_25cf7d4bda35c386fd5f63544145edba297f1034\classes.dex" />
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-25.0.0_6c7ba196166e5dcbab356d18938ecb7326d81ff8.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.0.0_9ab6e86e9d7c7cacd28fc4b53c1a64fc3bdfd9ea\classes.dex" />
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-25.0.0_080a25873b604d1bcb7f24083a75317b168d12ca.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.0.0_fdc52d4cefa0e5c211086870007eaca9e5f23291\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="26674000177e45447a0326a6ad84612761199a13">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.0.0_d5ed53788af632aea448f4f8f9449288907df855\classes.dex" />
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-25.0.0_55454697f3b484798262ff6704d9bc032fd91adf.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="51d30fd47613168a92c4c651cc454dd99c73a812">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_0fb8caa12fee63ac0e31c7f9bd55462c1acf7fde\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_c901aa3afed6abc59191d025515bdf2c63f18da7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.0.0_be99e678e274e2cb0cc5ff04d9e8a1964b791fba\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_fb1afdf44f9f51a927aa974710f1ee7f003cfdb5\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.0.0_c185812b0ee6c3d588817461f6e1bb13486ad2c9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_57abaff5a041a5b45cdd33a20860849a6b070722\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_11b04be5e0befa9ba541edf0c7ea98c12a81e609\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_0d5f094a8e1812a53f646ea403b334c04bf10c06\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-design-25.0.0_0d19d82ba9dc0a06efb3483869c9a4b9cb6c37de\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.0.0_b000392ea60376bc2e131919dd84cf1719094b70\classes.dex" />
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-25.0.0_c524f78a9856fc8f23bbf53248e7829653ba9470.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\internal_impl-25.0.0_9bdf2e73234b6b784ed1e7df0a919124fee81d58\classes.dex" />
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_75f18090ecbf242b7d7bcede63d698cf84fba74a.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c753fbd2c382647ffc70de245d5f2731fb3fee50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.0.0_5b251cd96f69cf2262c81aee7a0c188f240d89ed\classes.dex" />
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-25.0.0_d8095582ef95d4654b96b2691f7b94301150a016.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-25.0.0_45b84def11d2edc8485dcbb54b0017592cd40449.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-25.0.0_fe16e4440ff9c2bed79018a16c5cf04e5475477d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\design\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-design-25.0.0_bd9056c83f266101c21b5f6c6422e470dde72fef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-8.4.0_eadb083170bcc799f1a09afc0a1795f22d5482a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-25.0.0_744ee51758c744b1935515fb74f30295f7b8b759.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\transition\25.0.0\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
-        <dex dex="C:\dev\Android\Contatos2\Contatos2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-transition-25.0.0_ef40cff1f07dbd9fcacf5cb9d4fabb381edb3eec\classes.dex" />
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-transition-25.0.0_5211b4a83f7756ca3f61747003fbfe74c546e4d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-8.4.0_da19bb310a487e00bf699a13a1c4ce7eaeffa5ea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_a89adce16f108078239a0079df617572c7b06602.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-25.0.0_81a6e11286629ace13a0d0af036e635ae04a05fd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-25.0.0_7c7b408967df1fdb4303cb44b636de2b29a99445.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_6945870e7ceb9c75287a65dcca042e8dda57ff38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Endrick\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_4e9f938037cdd8d8206b0aa6590f05f06607c576.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.0.0\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="F:\Documents\GitHub\Android\Contatos2\Contatos2\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_fea121bf37e67fdc3d00ce1e3a6f474e1e9b1501.jar" />
     </item>
 
 </items>

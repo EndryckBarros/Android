@@ -1,7 +1,4 @@
-#Wed Jun 20 20:30:37 BRT 2018
-base.0=C\:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0fb8caa12fee63ac0e31c7f9bd55462c1acf7fde
-renamed.1=classes.dex
-renamed.0=classes2.dex
-file.1=C\:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25cf7d4bda35c386fd5f63544145edba297f1034\\classes.dex
-base.1=C\:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_25cf7d4bda35c386fd5f63544145edba297f1034
-file.0=C\:\\dev\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_0fb8caa12fee63ac0e31c7f9bd55462c1acf7fde\\classes.dex
+#Thu Jun 28 14:50:06 BRT 2018
+base.0=F\:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=F\:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
