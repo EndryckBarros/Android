@@ -490,6 +490,23 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 iv_43.getVisibility() == View.INVISIBLE &&
                 iv_40.getVisibility() == View.INVISIBLE){
 
+            JogadorDao jogadorDao = new JogadorDao();
+            //CONTAR VITÓRIAS E DERROTAS
+            if(playerPoints > cpuPoints && jogadores[0].getId() != null){
+                jogadores[0].setVitorias(jogadores[0].getVitorias() + 1);
+                jogadores[1].setDerrotas(jogadores[1].getDerrotas() + 1);
+                new JogadorDao().vitoria(jogadores[0]);
+                new JogadorDao().derrota(jogadores[1]);
+
+            }
+            if(cpuPoints > playerPoints && jogadores[0].getId() != null){
+                jogadores[0].setDerrotas(jogadores[0].getDerrotas() + 1);
+                jogadores[1].setVitorias(jogadores[1].getVitorias() + 1);
+                new JogadorDao().vitoria(jogadores[1]);
+                new JogadorDao().derrota(jogadores[0]);
+            }
+
+
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(GameActivity.this);
             alertDialogBuilder
                     .setMessage("GAME OVER! \n P1: " + playerPoints + "\n P2: " + cpuPoints)
@@ -497,7 +514,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                     .setPositiveButton("NEW", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
-                            Intent intent = new Intent(getApplicationContext(), GameActivity.class);
+                            Intent intent = new Intent(getApplicationContext(), SelecionarActivity.class);
                             startActivity(intent);
                             finish();
                         }

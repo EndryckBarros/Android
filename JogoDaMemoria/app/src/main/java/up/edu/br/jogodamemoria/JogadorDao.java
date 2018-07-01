@@ -24,7 +24,7 @@ public class JogadorDao {
 
     public List<Jogador> listar(){
         SQLiteDatabase conn = Conexao.getInstance().getReadableDatabase();
-        Cursor c = conn.query("jogador",new String[]{"id","nome","posicao","vitorias","derrotas","imagem"}, null, null, null, null, "nome");
+        Cursor c = conn.query("jogador",new String[]{"id","nome","vitorias","derrotas","posicao","imagem"}, null, null, null, null, "nome");
 
         ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
 
@@ -33,9 +33,9 @@ public class JogadorDao {
                 Jogador jogador = new Jogador();
                 jogador.setId(c.getInt(0));
                 jogador.setNome(c.getString(1));
-                jogador.setPosicao(c.getInt(2));
-                jogador.setVitorias(c.getInt(3));
-                jogador.setDerrotas(c.getInt(4));
+                jogador.setVitorias(c.getInt(2));
+                jogador.setDerrotas(c.getInt(3));
+                jogador.setPosicao(c.getInt(4));
                 jogador.setImagem(c.getBlob(5));
                 jogadores.add(jogador);
             } while (c.moveToNext());

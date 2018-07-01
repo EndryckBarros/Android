@@ -42,11 +42,16 @@ public class RankingAdapter extends BaseAdapter {
         View v = act.getLayoutInflater().inflate(R.layout.ranking_adapter,viewGroup,false);
 
         TextView nome = (TextView)v.findViewById(R.id.txtNome);
+        TextView vitorias = (TextView)v.findViewById(R.id.txtVitorias);
+        TextView derrotas = (TextView)v.findViewById(R.id.txtDerrotas);
         ImageView image = (ImageView)v.findViewById(R.id.imagePerfil);
 
         Jogador j = jogadores.get(i);
 
         nome.setText(j.getNome());
+        //    vitorias.setText(j.getVitorias());
+        //    derrotas.setText(j.getDerrotas());
+
         ByteArrayInputStream imageStream = new ByteArrayInputStream(j.getImagem());
         Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
         image.setImageBitmap(bitmap);
