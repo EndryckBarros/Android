@@ -26,6 +26,9 @@ public class Conexao extends SQLiteOpenHelper {
         String statement = "create table jogador ("+
                 "id integer primary key autoincrement," +
                 "nome varchar (255)," +
+                "vitorias int (25)," +
+                "derrotas int (25)," +
+                "posicao int (25)," +
                 "imagem blob" +
                 ")";
         /*String startament2 = "create table partida ("+

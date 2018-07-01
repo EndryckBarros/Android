@@ -3,6 +3,8 @@ package up.edu.br.jogodamemoria;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
@@ -12,14 +14,18 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.ByteArrayInputStream;
 import java.util.Arrays;
 import java.util.Collections;
 
 public class GameActivity extends AppCompatActivity implements View.OnClickListener{
 
-    TextView tv_p1, tv_p2;
+    Jogador[] jogadores;
 
-    ImageView   iv_10, iv_11, iv_12, iv_13,
+    TextView tv_p1, tv_p2, tv_nome, tv_nome2;
+
+    ImageView   iv_01, iv_02,
+                iv_10, iv_11, iv_12, iv_13,
                 iv_20, iv_21, iv_22, iv_23,
                 iv_30, iv_31, iv_32, iv_33,
                 iv_40, iv_41, iv_42, iv_43;
@@ -44,6 +50,28 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
+
+        iv_01 = (ImageView)findViewById(R.id.imageP1);
+        iv_02 = (ImageView)findViewById(R.id.imageP2);
+        tv_nome = (TextView)findViewById(R.id.tv_nome);
+        tv_nome2 = (TextView)findViewById(R.id.tv_nome2);
+
+        Intent it = getIntent();
+        if(it != null && it.hasExtra("jogadores")) {
+            jogadores = (Jogador[])it.getSerializableExtra("jogadores");
+
+            ByteArrayInputStream imageStream = new ByteArrayInputStream(jogadores[0].getImagem());
+            Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
+            iv_01.setImageBitmap(bitmap);
+            tv_nome.setText(jogadores[0].getNome());
+
+            imageStream = new ByteArrayInputStream(jogadores[1].getImagem());
+            bitmap = BitmapFactory.decodeStream(imageStream);
+            iv_02.setImageBitmap(bitmap);
+            tv_nome2.setText(jogadores[1].getNome());
+        }
+
+
 
         tv_p1 = (TextView)findViewById(R.id.tv_p1);
         tv_p2 = (TextView)findViewById(R.id.tv_p2);

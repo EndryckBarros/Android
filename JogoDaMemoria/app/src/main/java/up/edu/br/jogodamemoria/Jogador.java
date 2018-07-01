@@ -6,6 +6,9 @@ public class Jogador implements Serializable{
 
     private Integer id;
     private String nome;
+    private int posicao;
+    private int vitorias;
+    private int derrotas;
     private byte[] imagem;
 
 
@@ -36,6 +39,30 @@ public class Jogador implements Serializable{
 
     public void setNome(String nome) {
         this.nome = nome;
+    }
+
+    public int getPosicao() {
+        return posicao;
+    }
+
+    public void setPosicao(int posicao) {
+        this.posicao = posicao;
+    }
+
+    public int getVitorias() {
+        return vitorias;
+    }
+
+    public void setVitorias(int vitorias) {
+        this.vitorias = vitorias;
+    }
+
+    public int getDerrotas() {
+        return derrotas;
+    }
+
+    public void setDerrotas(int derrotas) {
+        this.derrotas = derrotas;
     }
 
     public byte[] getImagem() {

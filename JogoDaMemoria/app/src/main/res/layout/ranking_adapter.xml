@@ -60,6 +60,15 @@
                         android:textAlignment="center"
                         android:textSize="20dp" />
 
+                    <TextView
+                        android:id="@+id/txtDerrotas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="Derrotas"
+                        android:textAlignment="center"
+                        android:textSize="20dp" />
+
                 </LinearLayout>
             </LinearLayout>
 
