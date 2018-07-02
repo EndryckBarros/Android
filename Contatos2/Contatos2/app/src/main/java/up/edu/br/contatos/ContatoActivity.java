@@ -24,7 +24,8 @@ public class ContatoActivity extends AppCompatActivity {
 
 
     Contato contato;
-    int CAMERA_REQUEST = 1888;
+    private String userChoosenTask;
+    int CAMERA_REQUEST = 1888, SELECT_FILE = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -104,6 +105,13 @@ public class ContatoActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    private void intentGaleria(){
+        Intent it = new Intent();
+        it.setType("image/*");
+        it.setAction(it.ACTION_GET_CONTENT);
+        startActivityForResult(it.createChooser(it, "Select File"), SELECT_FILE);
     }
 
     @Override

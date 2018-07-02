@@ -1,12 +1,16 @@
 package up.edu.br.jogodamemoria;
 
 import android.app.AlertDialog;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.os.Handler;
+import android.support.v4.app.NotificationCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -488,6 +492,13 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 iv_43.getVisibility() == View.INVISIBLE &&
                 iv_40.getVisibility() == View.INVISIBLE){
 
+            if(new JogadorDao().primeiroLugar != new JogadorDao().primeiroDoRanking()){
+                Jogador jogador = new JogadorDao().primeiroDoRanking();
+                new JogadorDao().primeiroLugar = jogador;
+                gerarNotificação(jogador);
+            }
+
+
             //CONTAR VITÓRIAS E DERROTAS
             if(playerPoints > cpuPoints && jogadores[0].getId() != null){
                 jogadores[0].setVitorias(jogadores[0].getVitorias() + 1);
@@ -548,5 +559,27 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         image206 = R.drawable.image06;
         image207 = R.drawable.image07;
         image208 = R.drawable.image08;
+    }
+
+    public void gerarNotificação(Jogador j){
+        NotificationCompat.Builder mBuilder =
+                new NotificationCompat.Builder(this)
+                        .setSmallIcon(R.drawable.ic_sync_black_24dp)
+                        .setContentTitle("O Primeiro lugar acaba de ser ultrapassado")
+                        .setContentText("1º " + j.getNome())
+                        .setAutoCancel(true);
+
+        // Cria o intent que irá chamar a atividade a ser aberta quando clicar na notifição
+        Intent resultIntent = new Intent(GameActivity.this, RankingActivity.class);
+
+        //PendingIntent é "vinculada" a uma notification para abrir a intent
+        PendingIntent resultPendingIntent = PendingIntent.
+                getActivity(GameActivity.this, 0, resultIntent, 0);
+
+        //associa o intent na notificação
+        mBuilder.setContentIntent(resultPendingIntent);
+        NotificationManager mNotificationManager =(NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        //gera a notificação
+        mNotificationManager.notify(99, mBuilder.build());
     }
 }

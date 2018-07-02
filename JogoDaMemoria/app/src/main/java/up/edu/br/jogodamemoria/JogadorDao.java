@@ -59,7 +59,7 @@ public class JogadorDao {
         return jogadores;
     }
 
-    public Jogador notificacao(){
+    public Jogador primeiroDoRanking(){
         SQLiteDatabase conn = Conexao.getInstance().getReadableDatabase();
         Cursor c = conn.query("jogador",new String[]{"id","nome","vitorias","derrotas","posicao","imagem"}, null, null, null, null, "vitorias"+ " DESC");
 
@@ -79,8 +79,8 @@ public class JogadorDao {
                 jogadores.add(jogador);
 
                 //ARMAZENA O PRIMEIRO LUGAR TEMPORARIAMENTE PARA NOTIFICAÇÃO
-                if (cont == 1 && jogador != primeiroLugar){
-                    primeiroLugar = jogador;
+                if (cont == 1){
+
                     return jogador;
                     //new MainActivity().gerarNotificação(jogador);
                 }cont ++;
