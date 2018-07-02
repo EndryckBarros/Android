@@ -24,9 +24,10 @@ public class JogadorDao {
 
     public List<Jogador> listar(){
         SQLiteDatabase conn = Conexao.getInstance().getReadableDatabase();
-        Cursor c = conn.query("jogador",new String[]{"id","nome","vitorias","derrotas","posicao","imagem"}, null, null, null, null, "nome");
+        Cursor c = conn.query("jogador",new String[]{"id","nome","vitorias","derrotas","posicao","imagem"}, null, null, null, null, "vitorias"+ " DESC");
 
         ArrayList<Jogador> jogadores = new ArrayList<Jogador>();
+        int cont = 1;
 
         if(c.moveToFirst()){
             do{
@@ -37,7 +38,9 @@ public class JogadorDao {
                 jogador.setDerrotas(c.getInt(3));
                 jogador.setPosicao(c.getInt(4));
                 jogador.setImagem(c.getBlob(5));
+                jogador.setPosicao(cont);
                 jogadores.add(jogador);
+                cont ++;
             } while (c.moveToNext());
         }
         return jogadores;

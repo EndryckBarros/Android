@@ -44,13 +44,15 @@ public class RankingAdapter extends BaseAdapter {
         TextView nome = (TextView)v.findViewById(R.id.txtNome);
         TextView vitorias = (TextView)v.findViewById(R.id.txtVitorias);
         TextView derrotas = (TextView)v.findViewById(R.id.txtDerrotas);
+        TextView posicao = (TextView)v.findViewById(R.id.txtPosicao);
         ImageView image = (ImageView)v.findViewById(R.id.imagePerfil);
 
         Jogador j = jogadores.get(i);
 
         nome.setText(j.getNome());
-        //    vitorias.setText(j.getVitorias());
-        //    derrotas.setText(j.getDerrotas());
+            vitorias.setText(String.valueOf(j.getVitorias()));
+            derrotas.setText(String.valueOf(j.getDerrotas()));
+            posicao.setText(String.valueOf(j.getPosicao()));
 
         ByteArrayInputStream imageStream = new ByteArrayInputStream(j.getImagem());
         Bitmap bitmap = BitmapFactory.decodeStream(imageStream);

@@ -71,8 +71,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             tv_nome2.setText(jogadores[1].getNome());
         }
 
-
-
         tv_p1 = (TextView)findViewById(R.id.tv_p1);
         tv_p2 = (TextView)findViewById(R.id.tv_p2);
 
@@ -490,7 +488,6 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 iv_43.getVisibility() == View.INVISIBLE &&
                 iv_40.getVisibility() == View.INVISIBLE){
 
-            JogadorDao jogadorDao = new JogadorDao();
             //CONTAR VITÓRIAS E DERROTAS
             if(playerPoints > cpuPoints && jogadores[0].getId() != null){
                 jogadores[0].setVitorias(jogadores[0].getVitorias() + 1);
@@ -509,7 +506,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(GameActivity.this);
             alertDialogBuilder
-                    .setMessage("GAME OVER! \n P1: " + playerPoints + "\n P2: " + cpuPoints)
+                    .setMessage("GAME OVER! \n P1: " +jogadores[0].getNome()+" " + playerPoints
+                                         + "\n P2: " +jogadores[1].getNome()+" " + cpuPoints)
                     .setCancelable(false)
                     .setPositiveButton("NEW", new DialogInterface.OnClickListener() {
                         @Override
@@ -522,6 +520,8 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                     .setNegativeButton("EXIT", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialogInterface, int i) {
+                            Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                            startActivity(intent);
                             finish();
 
                         }
