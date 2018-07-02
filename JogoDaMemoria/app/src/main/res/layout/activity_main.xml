@@ -18,11 +18,15 @@
         android:weightSum="1">
 
         <ImageView
-            android:id="@+id/imageLogo"
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0.67"
-            app:srcCompat="@mipmap/logo" />
+            android:layout_height="255dp"
+            app:srcCompat="@drawable/logo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:orientation="vertical"></LinearLayout>
 
         <Button
             android:id="@+id/btnIniciar"
@@ -35,13 +39,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Ranking" />
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="Button" />
 
     </LinearLayout>
 </RelativeLayout>

@@ -33,6 +33,15 @@ public class RankingActivity extends AppCompatActivity {
             }
         });
 
+        FloatingActionButton fab2 = (FloatingActionButton) findViewById(R.id.fab2);
+        fab2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent it = new Intent(RankingActivity.this, MainActivity.class);
+                startActivity(it);
+            }
+        });
+
         ListView listaJogadores = (ListView) findViewById(R.id.listaJogadores);
         RankingAdapter rankingAdapter = new RankingAdapter(new JogadorDao().listar(), this);
         listaJogadores.setAdapter(rankingAdapter);
