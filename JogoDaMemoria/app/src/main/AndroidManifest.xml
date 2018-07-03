@@ -21,7 +21,20 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".RankingAdapter" />
         <activity android:name=".GameActivity" />
-        <activity android:name=".JogadorActivity" />
+        <activity android:name=".JogadorActivity">
+        <intent-filter>
+            <action
+                android:name="android.intent.action.VIEW"/>
+            <category
+                android:name="android.intent.category.DEFAULT"/>
+            <category
+                android:name="android.intent.category.BROWSABLE"/>
+            <data android:scheme="https"
+                android:host="*"/>
+
+        </intent-filter>
+
+        </activity>
         <activity android:name=".SelecionarActivity"></activity>
     </application>
 

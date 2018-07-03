@@ -34,7 +34,13 @@ public class JogadorActivity extends AppCompatActivity {
             image.setImageBitmap(photo);
         }
         super.onActivityResult(requestCode, resultCode, data);
+
+
+
+
+
     }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,6 +60,15 @@ public class JogadorActivity extends AppCompatActivity {
             Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
             image.setImageBitmap(bitmap);
         }
+
+        if (getIntent().getData() != null) {
+            String nomenet = getIntent().getData().getScheme()
+                    +":" + getIntent().getData().
+                    getSchemeSpecificPart();
+
+                txtNome.setText(nomenet);
+        }
+
 
         image.setOnClickListener(new View.OnClickListener() {
             @Override

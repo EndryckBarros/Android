@@ -11,6 +11,9 @@ public class Jogador implements Serializable{
     private int derrotas;
     private byte[] imagem;
 
+    public String toString(){
+        return nome;
+    }
 
     @Override
     public int hashCode() {

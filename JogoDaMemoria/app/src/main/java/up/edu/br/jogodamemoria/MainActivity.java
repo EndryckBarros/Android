@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         Jogador jogador = new JogadorDao().primeiroDoRanking();
 
-        if(jogador != null){
+        if(jogador == null){
             if( new JogadorDao().primeiroLugar == null){
                 new JogadorDao().primeiroLugar = new JogadorDao().primeiroDoRanking();
             }
