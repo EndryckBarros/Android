@@ -32,24 +32,24 @@
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
-        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
-    },
-    {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
     {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable\\common_google_signin_btn_icon_light.xml"
     },
     {
-        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",

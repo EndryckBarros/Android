@@ -52,16 +52,16 @@
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
-        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_contato.xml",
         "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\src\\main\\res\\layout\\activity_contato.xml"
     },
     {
-        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.0.0\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\25.0.0\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "F:\\Documents\\GitHub\\Android\\Contatos2\\Contatos2\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
