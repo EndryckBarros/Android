@@ -21,12 +21,6 @@ public class MainActivity extends AppCompatActivity {
 
         Jogador jogador = new JogadorDao().primeiroDoRanking();
 
-        if(jogador == null){
-            if( new JogadorDao().primeiroLugar == null){
-                new JogadorDao().primeiroLugar = new JogadorDao().primeiroDoRanking();
-            }
-        }
-        
         Button btnIniciar = (Button)findViewById(R.id.btnIniciar);
         btnIniciar.setOnClickListener(new View.OnClickListener() {
             @Override

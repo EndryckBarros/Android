@@ -14,8 +14,6 @@ import java.util.List;
 
 public class JogadorDao {
 
-    Jogador primeiroLugar;
-
     public void salvar (Jogador jogador){
         SQLiteDatabase conn = Conexao.getInstance().getWritableDatabase();
 
@@ -48,11 +46,6 @@ public class JogadorDao {
                 jogador.setImagem(c.getBlob(5));
                 jogador.setPosicao(cont);
                 jogadores.add(jogador);
-
-                if (cont == 1 && jogador != primeiroLugar){
-                        primeiroLugar = jogador;
-                }
-
                 cont ++;
             } while (c.moveToNext());
         }
@@ -82,7 +75,6 @@ public class JogadorDao {
                 if (cont == 1){
 
                     return jogador;
-                    //new MainActivity().gerarNotificação(jogador);
                 }cont ++;
             } while (c.moveToNext());
         }
@@ -111,6 +103,4 @@ public class JogadorDao {
         SQLiteDatabase conn = Conexao.getInstance().getWritableDatabase();
         conn.delete("jogador","id = ?", new String[] {jogador.getId().toString()});
     }
-
-
 }

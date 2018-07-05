@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">JogoDaMemoria</string>
     <string name="title_activity_ranking">RankingActivity</string>
+
+    <array name="temas">
+        <item>Digimon</item>
+        <item>Mário</item>
+        <item>Looney Tunes</item>
+        <item>Naruto</item>
+        <item>Hora de Aventura</item>
+    </array>
 </resources>

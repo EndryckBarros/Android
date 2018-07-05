@@ -24,7 +24,8 @@ import java.util.Collections;
 
 public class GameActivity extends AppCompatActivity implements View.OnClickListener{
 
-    Jogador[] jogadores;
+    Partida partida;
+    Jogador primeiroLugar;
 
     TextView tv_p1, tv_p2, tv_nome, tv_nome2;
 
@@ -55,24 +56,26 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
 
+        primeiroLugar = new JogadorDao().primeiroDoRanking();
+
         iv_01 = (ImageView)findViewById(R.id.imageP1);
         iv_02 = (ImageView)findViewById(R.id.imageP2);
         tv_nome = (TextView)findViewById(R.id.tv_nome);
         tv_nome2 = (TextView)findViewById(R.id.tv_nome2);
 
         Intent it = getIntent();
-        if(it != null && it.hasExtra("jogadores")) {
-            jogadores = (Jogador[])it.getSerializableExtra("jogadores");
+        if(it != null && it.hasExtra("partida")) {
+            partida = (Partida)it.getSerializableExtra("partida");
 
-            ByteArrayInputStream imageStream = new ByteArrayInputStream(jogadores[0].getImagem());
+            ByteArrayInputStream imageStream = new ByteArrayInputStream(partida.getJogador1().getImagem());
             Bitmap bitmap = BitmapFactory.decodeStream(imageStream);
             iv_01.setImageBitmap(bitmap);
-            tv_nome.setText(jogadores[0].getNome());
+            tv_nome.setText(partida.getJogador1().getNome());
 
-            imageStream = new ByteArrayInputStream(jogadores[1].getImagem());
+            imageStream = new ByteArrayInputStream(partida.getJogador2().getImagem());
             bitmap = BitmapFactory.decodeStream(imageStream);
             iv_02.setImageBitmap(bitmap);
-            tv_nome2.setText(jogadores[1].getNome());
+            tv_nome2.setText(partida.getJogador2().getNome());
         }
 
         tv_p1 = (TextView)findViewById(R.id.tv_p1);
@@ -112,12 +115,11 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
         iv_42.setTag("14");
         iv_43.setTag("15");
 
-        // CARREGA OS CARDS COM IMAGENS
-        frontOfCardsResources();
+        // CARREGA OS CARDS COM IMAGENS DE ACORDO COM O TEMA
+        frontOfCardsResources(partida.getTema());
 
         // EMBARALHA OS CARDS
         Collections.shuffle(Arrays.asList(cardsArray));
-
 
         iv_11.setOnClickListener(this);
         iv_12.setOnClickListener(this);
@@ -492,33 +494,29 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
                 iv_43.getVisibility() == View.INVISIBLE &&
                 iv_40.getVisibility() == View.INVISIBLE){
 
-            if(new JogadorDao().primeiroLugar != new JogadorDao().primeiroDoRanking()){
-                Jogador jogador = new JogadorDao().primeiroDoRanking();
-                new JogadorDao().primeiroLugar = jogador;
-                gerarNotificação(jogador);
-            }
-
-
             //CONTAR VITÓRIAS E DERROTAS
-            if(playerPoints > cpuPoints && jogadores[0].getId() != null){
-                jogadores[0].setVitorias(jogadores[0].getVitorias() + 1);
-                jogadores[1].setDerrotas(jogadores[1].getDerrotas() + 1);
-                new JogadorDao().vitoria(jogadores[0]);
-                new JogadorDao().derrota(jogadores[1]);
-
+            if(playerPoints > cpuPoints && partida.getJogador1().getId() != null){
+                partida.getJogador1().setVitorias(partida.getJogador1().getVitorias() + 1);
+                partida.getJogador2().setDerrotas(partida.getJogador2().getDerrotas() + 1);
+                new JogadorDao().vitoria(partida.getJogador1());
+                new JogadorDao().derrota(partida.getJogador2());
             }
-            if(cpuPoints > playerPoints && jogadores[0].getId() != null){
-                jogadores[0].setDerrotas(jogadores[0].getDerrotas() + 1);
-                jogadores[1].setVitorias(jogadores[1].getVitorias() + 1);
-                new JogadorDao().vitoria(jogadores[1]);
-                new JogadorDao().derrota(jogadores[0]);
+            if(cpuPoints > playerPoints && partida.getJogador1().getId() != null){
+                partida.getJogador1().setDerrotas(partida.getJogador1().getDerrotas() + 1);
+                partida.getJogador2().setVitorias(partida.getJogador2().getVitorias() + 1);
+                new JogadorDao().vitoria(partida.getJogador2());
+                new JogadorDao().derrota(partida.getJogador1());
             }
 
+            //SE O PRIMEIRO LUGAR ATUAL FOR ULTRAPASSADO GERA UMA NOTIFICAÇÃO
+            if(primeiroLugar.getId() != new JogadorDao().primeiroDoRanking().getId()){
+                gerarNotificação(new JogadorDao().primeiroDoRanking());
+            }
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(GameActivity.this);
             alertDialogBuilder
-                    .setMessage("GAME OVER! \n P1: " +jogadores[0].getNome()+" " + playerPoints
-                                         + "\n P2: " +jogadores[1].getNome()+" " + cpuPoints)
+                    .setMessage("GAME OVER! \n P1: " +partida.getJogador1().getNome()+" " + playerPoints
+                                         + "\n P2: " +partida.getJogador2().getNome()+" " + cpuPoints)
                     .setCancelable(false)
                     .setPositiveButton("NEW", new DialogInterface.OnClickListener() {
                         @Override
@@ -541,24 +539,100 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
             alertDialog.show();
         }
     }
-    private void frontOfCardsResources() {
+    private void frontOfCardsResources(String tema) {
 
-        image101 = R.drawable.image01;
-        image102 = R.drawable.image02;
-        image103 = R.drawable.image03;
-        image104 = R.drawable.image04;
-        image105 = R.drawable.image05;
-        image106 = R.drawable.image06;
-        image107 = R.drawable.image07;
-        image108 = R.drawable.image08;
-        image201 = R.drawable.image01;
-        image202 = R.drawable.image02;
-        image203 = R.drawable.image03;
-        image204 = R.drawable.image04;
-        image205 = R.drawable.image05;
-        image206 = R.drawable.image06;
-        image207 = R.drawable.image07;
-        image208 = R.drawable.image08;
+        switch (tema){
+            case "Mário":
+                image101 = R.drawable.image01;
+                image102 = R.drawable.image02;
+                image103 = R.drawable.image03;
+                image104 = R.drawable.image04;
+                image105 = R.drawable.image05;
+                image106 = R.drawable.image06;
+                image107 = R.drawable.image07;
+                image108 = R.drawable.image08;
+                image201 = R.drawable.image01;
+                image202 = R.drawable.image02;
+                image203 = R.drawable.image03;
+                image204 = R.drawable.image04;
+                image205 = R.drawable.image05;
+                image206 = R.drawable.image06;
+                image207 = R.drawable.image07;
+                image208 = R.drawable.image08;
+                break;
+            case "Digimon":
+                image101 = R.drawable.image09;
+                image102 = R.drawable.image10;
+                image103 = R.drawable.image11;
+                image104 = R.drawable.image12;
+                image105 = R.drawable.image13;
+                image106 = R.drawable.image14;
+                image107 = R.drawable.image15;
+                image108 = R.drawable.image16;
+                image201 = R.drawable.image09;
+                image202 = R.drawable.image10;
+                image203 = R.drawable.image11;
+                image204 = R.drawable.image12;
+                image205 = R.drawable.image13;
+                image206 = R.drawable.image14;
+                image207 = R.drawable.image15;
+                image208 = R.drawable.image16;
+                break;
+            case "Looney Tunes":
+                image101 = R.drawable.image33;
+                image102 = R.drawable.image34;
+                image103 = R.drawable.image35;
+                image104 = R.drawable.image36;
+                image105 = R.drawable.image37;
+                image106 = R.drawable.image38;
+                image107 = R.drawable.image39;
+                image108 = R.drawable.image40;
+                image201 = R.drawable.image33;
+                image202 = R.drawable.image34;
+                image203 = R.drawable.image35;
+                image204 = R.drawable.image36;
+                image205 = R.drawable.image37;
+                image206 = R.drawable.image38;
+                image207 = R.drawable.image39;
+                image208 = R.drawable.image40;
+                break;
+            case "Naruto":
+                image101 = R.drawable.image17;
+                image102 = R.drawable.image18;
+                image103 = R.drawable.image19;
+                image104 = R.drawable.image20;
+                image105 = R.drawable.image21;
+                image106 = R.drawable.image22;
+                image107 = R.drawable.image23;
+                image108 = R.drawable.image24;
+                image201 = R.drawable.image17;
+                image202 = R.drawable.image18;
+                image203 = R.drawable.image19;
+                image204 = R.drawable.image20;
+                image205 = R.drawable.image21;
+                image206 = R.drawable.image22;
+                image207 = R.drawable.image23;
+                image208 = R.drawable.image24;
+                break;
+            case "Hora de Aventura":
+                image101 = R.drawable.image25;
+                image102 = R.drawable.image26;
+                image103 = R.drawable.image27;
+                image104 = R.drawable.image28;
+                image105 = R.drawable.image29;
+                image106 = R.drawable.image30;
+                image107 = R.drawable.image31;
+                image108 = R.drawable.image32;
+                image201 = R.drawable.image25;
+                image202 = R.drawable.image26;
+                image203 = R.drawable.image27;
+                image204 = R.drawable.image28;
+                image205 = R.drawable.image29;
+                image206 = R.drawable.image30;
+                image207 = R.drawable.image31;
+                image208 = R.drawable.image32;
+                break;
+        }
     }
 
     public void gerarNotificação(Jogador j){
