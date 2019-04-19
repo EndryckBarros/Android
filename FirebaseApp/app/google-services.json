@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "579147174430",
+    "firebase_url": "https://fir-app-fcf6a.firebaseio.com",
+    "project_id": "fir-app-fcf6a",
+    "storage_bucket": "fir-app-fcf6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579147174430:android:81f71311aefa3f71",
+        "android_client_info": {
+          "package_name": "com.endryckbarros.firebaseapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579147174430-rcs52eiavodpt4d2tpj5e8cpi50fn2gk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.endryckbarros.firebaseapp",
+            "certificate_hash": "2d8ba4893ecca1ece1987e7bc1e6aa914ed19a31"
+          }
+        },
+        {
+          "client_id": "579147174430-0v663sdmqbov7nulurtirvifp2jg0no6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuKq1BQCAdeyabYGUqIW-RdUDpwi0fFQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579147174430-0v663sdmqbov7nulurtirvifp2jg0no6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
