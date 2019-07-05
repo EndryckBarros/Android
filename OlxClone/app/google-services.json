@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "89403736123",
+    "firebase_url": "https://olx-app-5d627.firebaseio.com",
+    "project_id": "olx-app-5d627",
+    "storage_bucket": "olx-app-5d627.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:89403736123:android:ee61dbcc38972e80",
+        "android_client_info": {
+          "package_name": "com.endryckbarros.olxapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "89403736123-7jaorii3qfh6o23q4ekpuah6ksmhbigh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.endryckbarros.olxapp",
+            "certificate_hash": "2d8ba4893ecca1ece1987e7bc1e6aa914ed19a31"
+          }
+        },
+        {
+          "client_id": "89403736123-ub401s3vp9qdgosvjltjanhpvqnmocnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEJkeo0SDRnVPURSAb_ow6gyxIyUFqoPc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "89403736123-ub401s3vp9qdgosvjltjanhpvqnmocnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
